@@ -28,3 +28,5 @@
 git clone https://github.com/yourusername/simple-crop-model.git
 cd simple-crop-model
 pip install -e .
+
+### 基础用法
