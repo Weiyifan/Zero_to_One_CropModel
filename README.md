@@ -28,5 +28,26 @@
 git clone https://github.com/yourusername/simple-crop-model.git
 cd simple-crop-model
 pip install -e .
+```
 
 ### 基础用法
+
+```python
+from simple_crop_model import CropParameters, OptimizedCropModel, generate_weather
+
+# 1. 使用预定义作物参数 (玉米、小麦、水稻)
+params = CropParameters.maize()
+
+# 2. 生成气象数据
+weather = generate_weather(start_day=120, days=150)
+
+# 3. 运行模拟
+model = OptimizedCropModel(params)
+results = model.run(weather)
+
+# 4. 查看结果
+print(f"产量: {results['grain_yield']:.0f} g/m²")
+print(f"生物量: {results['final_biomass']:.0f} g/m²")
+print(f"收获指数: {results['harvest_index']:.2f}")
+
+```
