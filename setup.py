@@ -14,7 +14,7 @@ setup(
     description="基于生理过程的作物生长模拟模型",
     long_description=read_file("README.md"),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/simple-crop-model",
+    url="https://github.com/Weiyifan/simple-crop-model",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     classifiers=[
@@ -48,7 +48,7 @@ setup(
     },
     keywords="crop model, agriculture, simulation, phenology, yield prediction",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/simple-crop-model/issues",
-        "Source": "https://github.com/yourusername/simple-crop-model",
+        "Bug Reports": "https://github.com/Weiyifan/simple-crop-model/issues",
+        "Source": "https://github.com/Weiyifan/simple-crop-model",
     },
 )
