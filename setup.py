@@ -9,8 +9,8 @@ def read_file(filename):
 setup(
     name="simple-crop-model",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Wei Yifan",
+    author_email="silence.63@163.com",
     description="基于生理过程的作物生长模拟模型",
     long_description=read_file("README.md"),
     long_description_content_type="text/markdown",
