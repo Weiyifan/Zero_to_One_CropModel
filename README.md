@@ -25,7 +25,7 @@
 ### 安装
 
 ```bash
-git clone https://github.com/yourusername/simple-crop-model.git
+git clone https://github.com/Weiyifan/Zero_to_One_CropModel.git
 cd simple-crop-model
 pip install -e .
 ```
