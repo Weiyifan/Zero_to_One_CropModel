@@ -111,7 +111,7 @@ SimpleCropModel/
   author = {Weiyifan},
   title = {SimpleCropModel: A Process-based Crop Growth Simulation Model},
   year = {2024},
-  url = {https://github.com/Weiyifan/simple-crop-model}
+  url = {https://github.com/Weiyifan/Zero_to_One_CropModel}
 }
 ```
 
