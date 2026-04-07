@@ -26,7 +26,7 @@
 
 ```bash
 git clone https://github.com/Weiyifan/Zero_to_One_CropModel.git
-cd simple-crop-model
+cd Zero_to_One_CropModel
 pip install -e .
 ```
 
